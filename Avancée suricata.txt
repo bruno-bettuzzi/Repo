@@ -1,0 +1,3 @@
+9 avril - 18 avril : recherche/documentations sur les solutions existantes.
+19 avril - 01 mai : prise en main de suricata + linux mise à niveau + suricata en offline
+02 mai : suricata tourne avec tcpreplay : 29.39% drop rate par suri
