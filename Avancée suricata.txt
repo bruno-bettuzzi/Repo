@@ -1,7 +1,15 @@
 9 avril - 18 avril : recherche/documentations sur les solutions existantes.
+
 19 avril - 01 mai : prise en main de suricata + linux mise à niveau + suricata en offline
+
 02 mai : suricata tourne avec tcpreplay : 29.39% drop rate par suri
+
 14 mai : solution retenu : graylog et suricata : implémentation en cours 
+
 23 mai : le serveur graylog tourne, on passe à l'étape : suricata + graylog communiquent
 et tournent ensemble.
+
 29 mai : suricata et graylog tournent ensemble, on passe à l'étape dashboard, temps réel.
+
+30 mai : alertes en temps réel sur graylog, on passe au joli dashboard + test d'attaque
+avec pc portable pr voir si le tout fonctionne bien.
