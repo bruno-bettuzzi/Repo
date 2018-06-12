@@ -1,0 +1,42 @@
+#!/bin/bash
+
+su
+cd
+echo "Installation des librairies..."
+
+apt-get -y install libpcre3 libpcre3-dbg libpcre3-dev \
+build-essential autoconf automake libtool libpcap-dev libnet1-dev \
+libyaml-0-2 libyaml-dev zlib1g zlib1g-dev libmagic-dev libcap-ng-dev \
+libjansson-dev pkg-config
+
+echo "Telechargement de Suricata..."
+wget https://www.openinfosecfoundation.org/download/suricata-4.0.4.tar.gz
+
+echo "Installation de Suricata..."
+tar -xvzf
+cd suricata
+./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var
+make install-full
+
+cd
+
+echo "Installation de java..."
+add-apt-repository ppa:openjdk-r/ppa
+apt-get update
+apt-get install openjdk-8-jdk
+
+echo "Installation de MongoDB..."
+systemctl enable mongodb
+
+echo "Installation de Elasticsearch..."
+systemctl enable elasticsearch
+
+echo "Installation de Graylog-server..."
+wget https://packages.graylog2.org/repo/packages/graylog-2.4-repository_latest.deb
+dpkg -i graylog-2.4-repository_latest.deb
+apt-get install graylog-server
+systemctl enable graylog-server
+
+echo "MAJ du système"
+apt-get update
+apt-get upgrade
