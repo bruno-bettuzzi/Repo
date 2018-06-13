@@ -13,16 +13,17 @@ echo "Telechargement de Suricata..."
 wget https://www.openinfosecfoundation.org/download/suricata-4.0.4.tar.gz
 
 echo "Installation de Suricata..."
-tar -xvzf
-cd suricata
+tar -xvzf suricata-4.0.4.tar.gz
+cd suricata-4.0.4/
 ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var
 make install-full
+
+###########OK ICI
 
 cd
 
 echo "Installation de java..."
 add-apt-repository ppa:openjdk-r/ppa
-apt-get update
 apt-get install openjdk-8-jdk
 
 echo "Installation de MongoDB..."
