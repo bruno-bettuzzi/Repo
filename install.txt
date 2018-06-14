@@ -41,3 +41,10 @@ systemctl enable graylog-server
 echo "MAJ du système"
 apt-get update
 apt-get upgrade
+
+###TRASHHHHH
+
+installation database geo : 
+
+wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz
+gunzip GeoLite2-City.tar.gz
