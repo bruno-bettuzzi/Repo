@@ -2,47 +2,42 @@
 
 su
 cd
-echo "Installation des librairies..."
+yum install -y epel-release
 
-apt-get -y install libpcre3 libpcre3-dbg libpcre3-dev \
-build-essential autoconf automake libtool libpcap-dev libnet1-dev \
-libyaml-0-2 libyaml-dev zlib1g zlib1g-dev libmagic-dev libcap-ng-dev \
-libjansson-dev pkg-config
+echo "Installation de suricata"
+yum install -y suricata
 
-echo "Telechargement de Suricata..."
-wget https://www.openinfosecfoundation.org/download/suricata-4.0.4.tar.gz
+echo"Installation du jdk"
+yum install -y java-1.8.0-openjdk-headless.x86_64
 
-echo "Installation de Suricata..."
-tar -xvzf suricata-4.0.4.tar.gz
-cd suricata-4.0.4/
-./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var
-make install-full
+echo "Installation de mongoDB"
+#Script qui va écrire quelques lignes (voir graylog centos) dans le yum repo
+yum install -y mongodb-org
+systemctl enable mongod.service
+systemctl start mongod.service
+
+echo "Installation d'Elasticsearch"
+rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
+#Script qui va écrire quelques lignes (voir graylog centos) dans le yum repo
+yum install -y elasticsearch
+#Script conf ES (cf commentaire au dessus)
+systemctl enable elasticsearch.service
+systemctl restart elasticsearch.service
+
+echo "Installation de graylog"
+yum install -y pwgen
+rpm -Uvh https://packages.graylog2.org/repo/packages/graylog-2.4-repository_latest.rpm
+yum install -y graylog-server
+
+
+
+
 
 ###########OK ICI
 
-cd
 
-echo "Installation de java..."
-add-apt-repository ppa:openjdk-r/ppa
-apt-get install openjdk-8-jdk
 
-echo "Installation de MongoDB..."
-systemctl enable mongodb
 
-echo "Installation de Elasticsearch..."
-systemctl enable elasticsearch
-
-echo "Installation de Graylog-server..."
-wget https://packages.graylog2.org/repo/packages/graylog-2.4-repository_latest.deb
-dpkg -i graylog-2.4-repository_latest.deb
-apt-get install graylog-server
-systemctl enable graylog-server
-
-echo "MAJ du système"
-apt-get update
-apt-get upgrade
-
-###TRASHHHHH
 
 installation database geo : 
 
