@@ -29,6 +29,8 @@ yum install -y pwgen
 rpm -Uvh https://packages.graylog2.org/repo/packages/graylog-2.4-repository_latest.rpm
 yum install -y graylog-server
 
+yum install -y policycoreutils-python
+
 
 
 
