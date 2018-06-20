@@ -15,3 +15,5 @@ et tournent ensemble.
 
 06 juin : dashboard basic ok mais il me semble qu'il va falloir trouver un autre GUI.
 Recherche de solutions clustering
+
+13 juin : nouvelle GUI, recherche solutions clustering
