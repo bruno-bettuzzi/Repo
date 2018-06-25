@@ -1,0 +1,9 @@
+GNS3
+
+https://cisco.goffinet.org/
+https://www.ciscomadesimple.be/certifications/ccent-icnd1/
+
+PAM
+
+http://linux-pam.org/Linux-PAM-html/Linux-PAM_SAG.html
+http://wpollock.com/AUnix2/PAM-Help.htm
