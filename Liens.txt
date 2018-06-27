@@ -7,3 +7,11 @@ PAM
 
 http://linux-pam.org/Linux-PAM-html/Linux-PAM_SAG.html
 http://wpollock.com/AUnix2/PAM-Help.htm
+
+Kernel
+
+https://www.kernel.org/doc/Documentation/
+
+Autre : 
+
+Openmaniak.com et techanarchy et cookie connecté.

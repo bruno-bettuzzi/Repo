@@ -18,4 +18,6 @@ Recherche de solutions clustering
 
 13 juin : nouvelle GUI, recherche solutions clustering
 
-21 juin : Solution retenu : Pacemaker/Corosync/SAN : implémentation en cours en environement production
+21 juin : Solution retenu : Pacemaker/Corosync/SAN : on passe à l'implémentation en cours en environement production
+
+27 juin : j'ai accès à l'environnement, début de l'installation logiciels
