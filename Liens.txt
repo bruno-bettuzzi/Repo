@@ -14,6 +14,10 @@ https://www.kernel.org/doc/Documentation/
 http://140.120.7.21/LinuxKernel/LinuxKernel/
 https://www.tldp.org/LDP/tlk/
 
+Hardening :
+
+https://highon.coffee/blog/security-harden-centos-7/#securing-cron
+
 Autre : 
 
 Openmaniak.com et techanarchy et cookie connecté.
