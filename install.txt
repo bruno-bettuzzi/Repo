@@ -2,7 +2,7 @@
 
 su
 cd
-yum install -y epel-release
+sudo yum install -y epel-release
 
 echo "Installation de suricata"
 yum install -y suricata
