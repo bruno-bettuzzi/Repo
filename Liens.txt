@@ -18,6 +18,10 @@ Hardening :
 
 https://highon.coffee/blog/security-harden-centos-7/#securing-cron
 
+Shell :
+
+https://www.shellscript.sh/tips/
+
 Autre : 
 
 Openmaniak.com et techanarchy et cookie connecté.
