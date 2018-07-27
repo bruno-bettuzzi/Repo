@@ -30,6 +30,7 @@ https://blog.xmco.fr/
 https://www.macg.co/materiel/2018/01/meltdown-et-spectre-tout-savoir-sur-les-failles-historiques-des-processeurs-100954
 https://www.macg.co/ailleurs/2018/01/recit-de-la-decouverte-effarante-des-failles-spectre-et-meltdown-101048
 https://www.certa.ssi.gouv.fr/
+https://korben.info/category/infos/administration-systeme-reseau
 
 voiture :
 
