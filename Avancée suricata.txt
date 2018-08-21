@@ -21,3 +21,5 @@ Recherche de solutions clustering
 21 juin : Solution retenu : Pacemaker/Corosync/SAN : on passe à l'implémentation en cours en environement production
 
 27 juin : j'ai accès à l'environnement, début de l'installation logiciels
+
+01 août : Suricata tourne en continue en installation nominale, pas de corrélations. On passe a l'étape Docs Suricata Graylog + OSSIM.
