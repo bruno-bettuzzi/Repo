@@ -35,3 +35,16 @@ https://korben.info/category/infos/administration-systeme-reseau
 voiture :
 
 https://www.easyimportauto.com/
+
+Exploits : 
+
+https://www.exploit-db.com/
+
+TODO :
+https://www.uccs.edu/~ahitchco/grep/
+https://ryanstutorials.net/linuxtutorial/grep.php
+https://www.panix.com/~elflord/unix/grep.html
+https://opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/
+https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+
++ cut sed awk Regex Sort
