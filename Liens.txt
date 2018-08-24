@@ -47,4 +47,5 @@ https://www.panix.com/~elflord/unix/grep.html
 https://opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/
 https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
 
-+ cut sed awk Regex Sort
++ cut sed awk Regex Sort + comment marche un serveur web/sql avec l'url -> attaques 
+par manipulation d'URL
