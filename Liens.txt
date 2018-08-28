@@ -21,6 +21,7 @@ https://highon.coffee/blog/security-harden-centos-7/#securing-cron
 Shell :
 
 https://www.shellscript.sh/tips/
+http://www.grymoire.com/
 
 Autre : 
 
